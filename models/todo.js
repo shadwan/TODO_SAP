@@ -6,7 +6,7 @@ var todoSchema = new mongoose.Schema({
         required: "Name cannot be blank!"
     },
     completed: {
-        type: String,
+        type: Boolean,
         default: false
     },
     created_date: {
